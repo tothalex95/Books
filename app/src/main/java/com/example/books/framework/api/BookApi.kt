@@ -24,6 +24,6 @@ interface BookApi {
         @Query("q") query: String,
         @Query("maxResults") maxResults: Int,
         @Query("startIndex") startIndex: Int
-    )
+    ): BookSearchResponse
 
 }
